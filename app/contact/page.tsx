@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function Contact() {
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <>
             <Head>
                 <title>Liên hệ | PetFinder</title>
                 <meta
@@ -98,6 +98,6 @@ export default function Contact() {
                 </section>
             </main>
             <Footer/>
-        </div>
+        </>
     );
 }

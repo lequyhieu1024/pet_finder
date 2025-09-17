@@ -103,7 +103,7 @@ export default function CreatePostModal({ isOpen, onClose, onSubmit }: CreatePos
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="w-[95%] max-w-sm md:max-w-2xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-gray-900">
             Đăng bài tìm thú cưng

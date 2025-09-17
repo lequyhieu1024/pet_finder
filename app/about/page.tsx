@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function About() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <>
             <Head>
                 <title>Về Chúng Tôi - Tìm Thú Cưng Thất Lạc</title>
                 <meta
@@ -130,6 +130,6 @@ export default function About() {
                 </section>
             </main>
             <Footer/>
-        </div>
+        </>
     );
 }
